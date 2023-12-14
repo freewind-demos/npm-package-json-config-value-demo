@@ -1,11 +1,11 @@
 {
-  "name": "javascript-npm-package-json-interval-value-demo",
-  "scripts": {
-    "demo": "echo ${npm_package_name} ${npm_package_aaa_bbb_ccc}"
-  },
-  "aaa": {
-    "bbb": {
-      "ccc": 123
+    "name": "javascript-npm-package-json-interval-value-demo",
+    "scripts": {
+        "start": "echo ${npm_package_name} ${npm_package_aaa_bbb_ccc}"
+    },
+    "aaa": {
+        "bbb": {
+            "ccc": 123
+        }
     }
-  }
 }
